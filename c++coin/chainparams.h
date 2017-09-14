@@ -6,8 +6,23 @@
 //  Copyright © 2017 NandN. All rights reserved.
 //
 
-#ifndef chainparams_h
-#define chainparams_h
 
 
-#endif /* chainparams_h */
+#include <memory>
+#include <vector>
+
+//create inheritance class for main chain
+
+
+class CChainParams
+{
+
+};
+
+/**
+ * Return the currently selected parameters. This won't change after app
+ * startup, except for unit tests.
+ */
+const CChainParams &Params();
+
+

@@ -7,3 +7,15 @@
 //
 
 #include <stdio.h>
+#include <assert.h>
+
+#include "chainparams.h"
+
+
+static std::unique_ptr<CChainParams> globalChainParams;
+//unique_ptr from <memory>.
+
+const CChainParams &Params() {
+    assert(globalChainParams);
+    return *globalChainParams;
+}

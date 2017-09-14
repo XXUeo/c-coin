@@ -11,6 +11,7 @@
 		68227EF81F6910870051B2FE /* netaddress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68227EF71F6910870051B2FE /* netaddress.cpp */; };
 		68E272AD1F69F33200EE34E6 /* init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E272AB1F69F33200EE34E6 /* init.cpp */; };
 		68E272AF1F69F66900EE34E6 /* chainparams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E272AE1F69F66900EE34E6 /* chainparams.cpp */; };
+		68E272B31F6A025C00EE34E6 /* chainparambase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E272B21F6A025C00EE34E6 /* chainparambase.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		68E272AC1F69F33200EE34E6 /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = init.h; sourceTree = "<group>"; };
 		68E272AE1F69F66900EE34E6 /* chainparams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chainparams.cpp; sourceTree = "<group>"; };
 		68E272B01F69F67700EE34E6 /* chainparams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chainparams.h; sourceTree = "<group>"; };
+		68E272B11F6A024600EE34E6 /* chainparambase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chainparambase.h; sourceTree = "<group>"; };
+		68E272B21F6A025C00EE34E6 /* chainparambase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chainparambase.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				68E272AB1F69F33200EE34E6 /* init.cpp */,
 				68E272B01F69F67700EE34E6 /* chainparams.h */,
 				68E272AE1F69F66900EE34E6 /* chainparams.cpp */,
+				68E272B11F6A024600EE34E6 /* chainparambase.h */,
+				68E272B21F6A025C00EE34E6 /* chainparambase.cpp */,
 			);
 			path = "c++coin";
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			files = (
 				68227EF81F6910870051B2FE /* netaddress.cpp in Sources */,
 				68227EF01F690F4C0051B2FE /* main.cpp in Sources */,
+				68E272B31F6A025C00EE34E6 /* chainparambase.cpp in Sources */,
 				68E272AD1F69F33200EE34E6 /* init.cpp in Sources */,
 				68E272AF1F69F66900EE34E6 /* chainparams.cpp in Sources */,
 			);
