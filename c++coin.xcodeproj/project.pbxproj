@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		68227EF01F690F4C0051B2FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68227EEF1F690F4C0051B2FE /* main.cpp */; };
 		68227EF81F6910870051B2FE /* netaddress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68227EF71F6910870051B2FE /* netaddress.cpp */; };
+		68E272AD1F69F33200EE34E6 /* init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E272AB1F69F33200EE34E6 /* init.cpp */; };
+		68E272AF1F69F66900EE34E6 /* chainparams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68E272AE1F69F66900EE34E6 /* chainparams.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,10 @@
 		68227EF61F690F670051B2FE /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		68227EF71F6910870051B2FE /* netaddress.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = netaddress.cpp; sourceTree = "<group>"; };
 		68227EF91F6910CD0051B2FE /* netaddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = netaddress.h; sourceTree = "<group>"; };
+		68E272AB1F69F33200EE34E6 /* init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = init.cpp; sourceTree = "<group>"; };
+		68E272AC1F69F33200EE34E6 /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = init.h; sourceTree = "<group>"; };
+		68E272AE1F69F66900EE34E6 /* chainparams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chainparams.cpp; sourceTree = "<group>"; };
+		68E272B01F69F67700EE34E6 /* chainparams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chainparams.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,10 @@
 				68227EF71F6910870051B2FE /* netaddress.cpp */,
 				68227EEF1F690F4C0051B2FE /* main.cpp */,
 				68227EF61F690F670051B2FE /* main.h */,
+				68E272AC1F69F33200EE34E6 /* init.h */,
+				68E272AB1F69F33200EE34E6 /* init.cpp */,
+				68E272B01F69F67700EE34E6 /* chainparams.h */,
+				68E272AE1F69F66900EE34E6 /* chainparams.cpp */,
 			);
 			path = "c++coin";
 			sourceTree = "<group>";
@@ -128,6 +138,8 @@
 			files = (
 				68227EF81F6910870051B2FE /* netaddress.cpp in Sources */,
 				68227EF01F690F4C0051B2FE /* main.cpp in Sources */,
+				68E272AD1F69F33200EE34E6 /* init.cpp in Sources */,
+				68E272AF1F69F66900EE34E6 /* chainparams.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +276,7 @@
 				68227EF51F690F4C0051B2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
