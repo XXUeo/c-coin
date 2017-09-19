@@ -7,4 +7,20 @@
 //
 
 
-#include "chainparambase.h"
+#include "chainparamsbase.h"
+#include "util.h"
+#include "tinyformat.h"
+#include <assert.h>
+
+
+
+
+static std::unique_ptr<CBaseChainParams> globalChainBaseParams;
+
+
+
+const CBaseChainParams& BaseParams()
+{
+    assert(globalChainBaseParams);
+    return *globalChainBaseParams;
+}

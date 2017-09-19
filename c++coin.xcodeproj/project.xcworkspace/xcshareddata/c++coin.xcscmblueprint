@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8DEC4B9A57B6355B5CBF22EE6BA5BFA93E6511FD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A6EC02C825FA559654D9A2DFAD1439CC14589D47" : 9223372036854775807,
+    "8DEC4B9A57B6355B5CBF22EE6BA5BFA93E6511FD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "78ECBFB1-3A60-4B79-97CC-601A7CD615D4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A6EC02C825FA559654D9A2DFAD1439CC14589D47" : "bitcoin\/",
+    "8DEC4B9A57B6355B5CBF22EE6BA5BFA93E6511FD" : "c++coin\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "c++coin",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "c++coin.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KennyHisano\/c-coin",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8DEC4B9A57B6355B5CBF22EE6BA5BFA93E6511FD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KennyHisano\/bitcoin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A6EC02C825FA559654D9A2DFAD1439CC14589D47"
+    }
+  ]
+}

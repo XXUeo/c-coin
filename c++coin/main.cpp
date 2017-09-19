@@ -7,6 +7,7 @@
 //
 
 #include "main.h"
+#include "init.h"
 
 #include <iostream>
 
@@ -19,26 +20,34 @@
 #include <boost/algorithm/string/predicate.hpp>
 #include <boost/thread.hpp>
 
+#include <stdio.h>
+
+
+
 
 
 
 bool fDiscover = true;
 bool fListen = true;
 
+
+
+
+
 //check bitcoind for entry point.
 bool AppInit(int argc, char* argv[])
 {
+    
+    
     boost::thread_group threadGroup;
-    CScheduler scheduler;
     
     
-    return AppInitMain(threadGroup, scheduler);
+    return AppInitMain(threadGroup);
+   
+
 }
 
-bool AppInitMain(boost::thread_group& threadGroup, CScheduler& scheduler)
-{
-    
-}
+
 
 
 int main(int argc, char * argv[]) {
