@@ -10,6 +10,7 @@
 #include "chainparams.h"
 #include "fs.h"
 #include "util.h"
+#include "tinyformat.h"
 
 #include <boost/algorithm/string/classification.hpp>
 #include <boost/algorithm/string/predicate.hpp>
@@ -18,8 +19,9 @@
 #include <boost/bind.hpp>
 #include <boost/interprocess/sync/file_lock.hpp>
 #include <boost/thread.hpp>
+#include "ui_interface.h"
 
-
+#define PACKAGE_NAME
 
 
 static bool LockDataDirectory(bool probeOnly)
@@ -34,13 +36,13 @@ static bool LockDataDirectory(bool probeOnly)
     try {
         static boost::interprocess::file_lock lock(pathLockFile.string().c_str());
         if (!lock.try_lock()) {
-            return InitError(strprintf(_("Cannot obtain a lock on data directory %s. %s is probably already running."), strDataDir, _(PACKAGE_NAME)));
+            return InitError(strprintf("Cannot obtain a lock on data directory %s. %s is probably already running."));
         }
         if (probeOnly) {
             lock.unlock();
         }
     } catch(const boost::interprocess::interprocess_exception& e) {
-        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. %s is probably already running.") + " %s.", strDataDir, _(PACKAGE_NAME), e.what()));
+        return InitError(strprintf(("Cannot obtain a lock on data directory %s. %s is probably already running.")));
     }
     return true;
 }
@@ -64,6 +66,7 @@ bool AppInitMain(boost::thread_group& threadgroup)
         return false;
     }
 
+    
     
     return true;
     
