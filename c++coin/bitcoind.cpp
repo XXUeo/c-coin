@@ -6,7 +6,7 @@
 //  Copyright © 2017 NandN. All rights reserved.
 //
 
-#include "main.h"
+#include "bitcoind.h"
 #include "init.h"
 
 #include <iostream>
