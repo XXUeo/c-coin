@@ -69,11 +69,10 @@ bool AppInitMain(boost::thread_group& threadgroup)
         return false;
     }
 
-    LogPrintf("Using %u threads for script verification\n", nScriptCheckThreads);
-    if (nScriptCheckThreads) {
-        for (int i=0; i<nScriptCheckThreads-1; i++)
-            threadGroup.create_thread(&ThreadScriptCheck);
-    }
+
+    
+    threadgroup.create_thread(&ThreadScriptCheck);
+    
     
     return true;
     
