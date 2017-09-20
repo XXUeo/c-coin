@@ -9,7 +9,19 @@
 
 #include "fs.h"
 #include "sync.h"
+#include "tinyformat.h"
 
+
+
+#include <atomic>
+#include <exception>
+#include <map>
+#include <stdint.h>
+#include <string>
+#include <vector>
+
+#include <boost/signals2/signal.hpp>
+#include <boost/thread/exceptions.hpp>
 
 fs::path GetDefaultDataDir();
 const fs::path &GetDataDir(bool fNetSpecific = true);
