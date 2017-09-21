@@ -143,3 +143,8 @@ static inline bool SoftSetBoolArg(const std::string& strArg, bool fValue)
 {
     return gArgs.SoftSetBoolArg(strArg, fValue);
 }
+
+
+
+
+void RenameThread(const char* name);

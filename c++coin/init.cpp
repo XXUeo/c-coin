@@ -25,7 +25,6 @@
 
 #define PACKAGE_NAME
 
-#define _(msg) msg
 
 static bool LockDataDirectory(bool probeOnly)
 {
@@ -72,6 +71,8 @@ bool AppInitMain(boost::thread_group& threadgroup)
 
     
     threadgroup.create_thread(&ThreadScriptCheck);
+    
+    
     
     
     return true;
