@@ -72,6 +72,8 @@ bool AppInitMain(boost::thread_group& threadgroup)
     
     threadgroup.create_thread(&ThreadScriptCheck);
     
+    //skip rpc
+    
     
     
     
